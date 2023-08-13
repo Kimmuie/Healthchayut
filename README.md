@@ -1,2 +1,2 @@
 # Healthchayut
-this is project for Borntodev by using HTML and javascript
+this is project prefer to Borntodev by using HTML and javascript
