@@ -1,0 +1,95 @@
+<head>
+    <title>Healthchayut</title>
+</head>
+<body style="background-color: #2D283E;">
+    <h1 style="border: 3px solid #CCABD8;
+        border-inline-width : 100px;
+        border-inline-color:#CCABD8;
+        border-radius: 15px;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius:80px;
+        background-color: #CCABD8;
+        float: left;
+        margin-left: 150px;
+        color :white;">Healthchayut</h1>
+    <hr width="840"
+        size="20"
+        color="white" align="center" 
+        style="position: fixed;
+            top: 300; left: 340;
+            transform: rotate(90deg);">
+    <img    src="https://www.goodwillaesthetic.com/wp-content/uploads/2020/09/4977-Converted2-01.jpg" 
+            style="float: right;
+                max-width: 50%;">
+        <br><br><br><br>
+    <label  for="weight"
+            style="position: fixed;
+                float: left; 
+                margin-left: 225px;
+                color :white">Weight (kg)</label>
+    <input  placeholder="type your weight"
+            type="number"
+            name="weight" 
+            id="weight"
+            style="border: 3px solid white;
+                padding: 5px;
+                border-radius: 15px;
+                background-color: #CCABD8;
+                position: fixed;
+                float: left;
+                margin-left: 320px;"/>
+        <br><br>
+    <label  for="height"
+            style="position: fixed;
+                float: left;
+                margin-left: 225px; 
+                color :white">Height (cm)</label>
+    <input  placeholder="type your height" 
+            type="number" 
+            name="height" 
+            id="height" 
+            style="border: 3px solid white;
+                padding: 5px;border-radius: 15px;
+                background-color: #CCABD8;
+                position: fixed;
+                float: left; 
+                margin-left: 320px;"/> 
+        <br><br>
+    <button onclick="calculatorBMI()"
+            style="border: 3px solid white;
+                padding: 5px;
+                border-radius: 15px;
+                background-color: #fef37f;
+                float: left; 
+                margin-left: 290px;
+                margin-top: 20px">Calculator BMI</button>       
+    <h3 id="bmiresult"
+        style="position: fixed;
+            float: left;
+            margin-top: 60px ;
+            margin-left: 287px;
+            color :white"></h3>
+        <br><br>
+    <h3 id="result" 
+        style="position: fixed;
+            float: left;
+            margin-top: 60px; 
+            margin-left: 287px; 
+            color :white"></h3>
+    <button onclick="document.getElementById('information').style.display = 'block';" 
+            id="hello" 
+            style="border: 3px solid white;
+                padding: 5px;
+                border-radius: 15px;
+                background-color: #fef37f;
+                display: none;
+                position: fixed;
+                top: 290;
+                left: 305;">ข้อมูลเพิ่มเติม</button>
+    <h4 id="information"
+        style="display: none;
+            position: fixed;
+            top: 300; left: 20; 
+            color :white"></h4>
+    <script src="Healthchayut.js"></script>
+</body>
